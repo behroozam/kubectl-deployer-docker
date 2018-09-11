@@ -1,6 +1,6 @@
-FROM alpine:3.6
+FROM alpine:edge
 
-MAINTAINER Sergii Nuzhdin <ipaq.lw@gmail.com@gmail.com>
+MAINTAINER behroozam <b.hasanbg@gmail.com>
 
 ENV KUBE_LATEST_VERSION="v1.10.0"
 
