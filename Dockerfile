@@ -2,7 +2,7 @@ FROM alpine:edge
 
 MAINTAINER behroozam <b.hasanbg@gmail.com>
 
-ENV KUBE_LATEST_VERSION="v1.10.0"
+ENV KUBE_LATEST_VERSION="v1.14.0"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
